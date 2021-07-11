@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TestDewival</string>
+    <string name="log_in">log in</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="send">send</string>
+    <string name="permission_needed"> Permission needed</string>
+    <string name="Explanation">This permission is required for the application to work correctly</string>
+    <string name="success">Success</string>
+    <string name="success_send_msg">Image sent successfully</string>
+</resources>

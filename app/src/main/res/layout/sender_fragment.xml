@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.view.sender.SenderFragment">
+
+    <GridLayout
+        android:id="@+id/photos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:columnCount="5"
+        android:orientation="horizontal"
+        android:rowCount="2"
+        android:useDefaultMargins="true">
+
+        <ImageButton
+            android:id="@+id/photo"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:scaleType="centerCrop"
+
+            android:src="@drawable/photo" />
+
+        <ImageButton
+            android:id="@+id/photo2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:scaleType="centerCrop"
+            android:src="@drawable/photo" />
+
+        <ImageButton
+            android:id="@+id/photo3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:scaleType="centerCrop"
+            android:src="@drawable/photo" />
+
+        <ImageButton
+            android:id="@+id/photo4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:scaleType="centerCrop"
+            android:src="@drawable/photo" />
+
+        <ImageButton
+            android:id="@+id/photo5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:scaleType="centerCrop"
+            android:src="@drawable/photo" />
+
+        <ImageButton
+            android:id="@+id/photo6"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_rowWeight="2"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:scaleType="centerCrop"
+            android:src="@drawable/photo" />
+
+        <ImageButton
+            android:id="@+id/photo7"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_rowWeight="2"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:scaleType="centerCrop"
+            android:src="@drawable/photo" />
+
+        <ImageButton
+            android:id="@+id/photo8"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_rowWeight="2"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:scaleType="centerCrop"
+            android:src="@drawable/photo"/>
+
+        <ImageButton
+            android:id="@+id/photo9"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="2"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:scaleType="centerCrop"
+            android:src="@drawable/photo" />
+
+        <ImageButton
+            android:id="@+id/photo10"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="2"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:scaleType="centerCrop"
+            android:src="@drawable/photo" />
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:text="@string/send" />
+
+</LinearLayout>
